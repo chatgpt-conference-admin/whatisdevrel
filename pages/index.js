@@ -6,17 +6,19 @@ import Jobs from "../components/Jobs";
 import MetaHead from "../components/MetaHead";
 import Resources from "../components/Resources";
 import Summary from "../components/Summary";
+import CFP from "../components/CFP"
 
 export default function Home() {
   return (
     <>
       <MetaHead />
       <Summary />
-      <DevRelPillars />
+      {/* <DevRelPillars />
       <Jobs />
       <Advice />
-      <Resources />
+      <Resources /> */}
       <Contributors />
+      <CFP />
     </>
   );
 }

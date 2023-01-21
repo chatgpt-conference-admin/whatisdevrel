@@ -1,41 +1,42 @@
 import Image from "next/future/image";
 
+
+
 export default function Contributors() {
   const contributors = [
     {
-      name: "Hassan El Mghari",
-      role: "Vercel",
-      imageUrl: "/hassan_grayscale.png",
-      twitterUrl: "https://twitter.com/nutlope",
-      websiteUrl: "https://www.elmghari.com/",
+      name: "??",
+      role: "?",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/800px-Question_mark_%28black%29.svg.png",
+      twitterUrl: "",
+      websiteUrl: "",
+    }, 
+    {
+      name: "??",
+      role: "?",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/800px-Question_mark_%28black%29.svg.png",
+      twitterUrl: "",
+      websiteUrl: "",
+    }, 
+    {
+      name: "??",
+      role: "?",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/800px-Question_mark_%28black%29.svg.png",
+      twitterUrl: "",
+      websiteUrl: "",
     },
     {
-      name: "Lee Robinson",
-      role: "Vercel",
-      imageUrl: "/lee_grayscale.png",
-      twitterUrl: "https://twitter.com/leeerob",
-      websiteUrl: "https://leerob.io/",
-    },
-    {
-      name: "Camila Ramos",
-      role: "Edge & Node",
-      imageUrl: "/cami_grayscale.png",
-      twitterUrl: "https://twitter.com/camiinthisthang",
-      websiteUrl:
-        "https://www.youtube.com/channel/UCyEnr-lcCUavJzh0uodvG3w/videos",
-    },
-    {
-      name: "Shawn Wang",
-      role: "DX Tips",
-      imageUrl: "/swyx_grayscale.png",
-      twitterUrl: "https://twitter.com/swyx",
-      websiteUrl: "https://swyx.io/",
-    },
+      name: "??",
+      role: "?",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/800px-Question_mark_%28black%29.svg.png",
+      twitterUrl: "",
+      websiteUrl: "",
+    }
   ];
   return (
     <section className="section container border-t border-gray-700 pt-6 text-center">
-      <h2 className="title mb-4 text-3xl md:text-5xl">Authors</h2>
-      <p>This content has been created and reviewed by the following people.</p>
+      <h2 className="title mb-4 text-3xl md:text-5xl">Speakers</h2>
+      <p>The selected speakers via CFP will be announced here.</p>
       <ul
         role="list"
         className="mt-12 space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 md:grid-cols-3 lg:max-w-5xl lg:grid-cols-4"
@@ -103,6 +104,7 @@ export default function Contributors() {
           </li>
         ))}
       </ul>
+      {/* <p> Apply for CFP here: https://forms.gle/n8EDLCqFxQyvQ8iVA </p> */}
     </section>
   );
 }
