@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <PlausibleProvider domain="whatisdevrel.com">
+    <PlausibleProvider domain="https://chatgpt-conf.vercel.app">
       <ThemeProvider defaultTheme="system" attribute="class">
         <Layout>
           <Component {...pageProps} />

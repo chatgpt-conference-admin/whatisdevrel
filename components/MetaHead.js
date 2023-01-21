@@ -9,7 +9,7 @@ export default function MetaHead() {
         content="ChatGPT Conf 2023"
       />
       <meta property="og:url" content={`https://chatgpt-conf.vercel.app/`} />
-      <meta property="og:site_name" content="WhatisDevRel.com" />
+      <meta property="og:site_name" content="https://chatgpt-conf.vercel.app/" />
       <meta
         property="og:description"
         content="ChatGPT Conf 2023"
