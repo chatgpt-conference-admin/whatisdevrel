@@ -16,8 +16,7 @@ export default function Home() {
       <Navbar />
       <Summary />
       {/* <DevRelPillars /> */}
-      {/* <Jobs /> */}
-      {/* <Advice /> */}
+      <Jobs />
       <Resources />
       <Contributors />
       <CFP />

@@ -2,58 +2,43 @@
 import {
   CloudIcon,
   CodeIcon,
+  CalendarIcon,
+  VideoCameraIcon,
   LightningBoltIcon,
+  CommandLineIcon,
+  DesktopComputerIcon
 } from "@heroicons/react/outline";
+
 
 export default function Jobs() {
   const skills = [
     {
-      name: "You can code",
+      name: "Date",
       description:
-        "For this, you can show off some of your side projects or highlight your previous engineering experience. It's important for DevRels to be able to code to empathize with developers.",
-      icon: CodeIcon,
+        "The event will be streamed live on 12th March 2023 from 10 AM EST to 5 PM EST",
+      icon: CalendarIcon,
     },
     {
-      name: "You can build communities",
+      name: "Youtube",
       description:
-        "For this skill, you can show off any experience of you helping build a community or organization. It could be for college, open source, online communities or anything.",
-      icon: CloudIcon,
+        "The event will be streamed live on Youtube. The selected speakers will present via Stremyard.",
+      icon: VideoCameraIcon,
     },
     {
-      name: "You can create content",
+      name: "CFP Evaluation",
       description:
-        "For this skill, you can show off your talks, YouTube videos, tweets, and blog posts. If you don't have any of these, I'd strongly recommend you create some content.",
-      icon: LightningBoltIcon,
+        "CFP Evaluation will be done by ChatGPT",
+      icon: DesktopComputerIcon,
     },
   ];
 
   return (
-    <section className="section container border-t border-gray-700 pt-6">
+    <section className="section container border-t border-gray-700 pt-6" id = "details">
       <h2 className="title mt-4 mb-8 text-3xl md:text-5xl">
-        Getting a job in DevRel
+        Event Details
       </h2>
-      <p>
-        As mentioned, the job market for devrels is very hot right now. I have
-        startups that message me every week asking if I know any good developer
-        advocates, so there is a big need in the market right now. I'm going to
-        be posting a list of companies that are hiring in this section each
-        month, starting on August 1st.
-      </p>
-      {/* <div className="mx-auto mb-6 mt-6 text-center">
-        <a href="https://twitter.com/nutlope/status/1440814837542514703">
-          <Image
-            src="/hotmarket.png"
-            alt="a tweet showing how hot the devrel market is"
-            width="600"
-            height="500"
-          />
-        </a>
-      </div> */}
       <div className="mt-5 mb-8">
-        <p className="mb-6">
-          When applying for developer advocate roles, it's important to show
-          that you have some of these three skills below:
-        </p>
+     
         <dl className="">
           {skills.map((skill) => (
             <div key={skill.name} className="relative mb-5">
@@ -68,22 +53,6 @@ export default function Jobs() {
           ))}
         </dl>
       </div>
-      <p>
-        While there aren't pre-requisites for the job, it's{" "}
-        <span className="italic">very helpful</span> to have prior work in these
-        areas to show off and get your career in developer advocacy started. If
-        you don't have prior work, you should start creating content (blogs,
-        videos, side projects) that helps demonstrate you can already do the
-        work. Ultimately, this is a role for engineers who enjoy working with
-        developers, creating content, and managing communities.
-      </p>
-      <p className="mt-4 mb-8">
-        If you already have two of these skills with prior work, feel free to{" "}
-        <a href="https://twitter.com/nutlope" className="link font-medium">
-          DM me on Twitter
-        </a>{" "}
-        and I can try to connect you to startups that are hiring!
-      </p>
     </section>
   );
 }
