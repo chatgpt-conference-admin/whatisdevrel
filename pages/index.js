@@ -1,7 +1,5 @@
-import Advice from "../components/Advice";
 import Contributors from "../components/Contributors";
 import DevRelPillars from "../components/DevRelPillars";
-import Footer from "../components/Layout/Footer";
 import Jobs from "../components/Jobs";
 import MetaHead from "../components/MetaHead";
 import Resources from "../components/Resources";
@@ -15,9 +13,9 @@ export default function Home() {
       <MetaHead />
       <Navbar />
       <Summary />
-      {/* <DevRelPillars /> */}
       <Jobs />
       <Resources />
+      <DevRelPillars />
       <Contributors />
       <CFP />
     </>

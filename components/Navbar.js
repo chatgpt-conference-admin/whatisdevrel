@@ -76,6 +76,18 @@ const Navbar = () => {
                     Summary
                   </a>
                 </DynamicLink>
+                {/* <DynamicLink
+  activeClass="active"
+  to="details"
+  spy={true}
+  smooth={true}
+  offset={-70}
+  duration={500}
+>
+            <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
+              Details
+            </a>
+          </DynamicLink> */}
                 <DynamicLink
   activeClass="active"
   to="cfp"
@@ -107,6 +119,18 @@ const Navbar = () => {
 >
             <a className="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
               Summary
+            </a>
+          </DynamicLink>
+          <DynamicLink
+  activeClass="active"
+  to="details"
+  spy={true}
+  smooth={true}
+  offset={-70}
+  duration={500}
+>
+            <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
+              Details
             </a>
           </DynamicLink>
           <DynamicLink

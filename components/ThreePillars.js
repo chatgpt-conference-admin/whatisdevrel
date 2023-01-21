@@ -1,35 +1,22 @@
 const pillarsOfDevRel = [
   {
-    name: "Community",
-    icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>`,
-    persona: "The Community Builder",
+    name: "Keynote Speech",
+    // icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>`,
     responsibilities: [
-      "Organizing events",
-      "Doing livestreams",
-      "Discord/Slack community",
-      "Talking to users for feedback",
+    "Hear from the industry leaders in Keynote Speech about ChatGPT and its uses"
     ],
   },
   {
-    name: "Content",
-    icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
-    persona: "The Developer Educator",
+    name: "Panel Discussion",
+    // icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
     responsibilities: [
-      "Writing blogs",
-      "Making videos",
-      "Doing courses",
-      "Speaking at conferences",
-    ],
+      "Panels will discuss regarding future of AI, ethical use of ChatGPT"]
   },
   {
-    name: "Product",
-    icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05"/><path d="M12 22.08V12"/></svg>`,
-    persona: "The Developer Experience Engineer",
+    name: "Breakout Sessions",
+    // icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05"/><path d="M12 22.08V12"/></svg>`,
     responsibilities: [
-      "Iterating on docs",
-      "Coding examples & starters",
-      "Working on integrations",
-      "Improving the overall DX",
+      "Breakout sessions covering the various tracks for this conference"
     ],
   },
 ];

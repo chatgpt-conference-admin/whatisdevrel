@@ -33,4 +33,13 @@
   cursor: default;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  margin: 0 10px;
+}
+
 @tailwind utilities;
