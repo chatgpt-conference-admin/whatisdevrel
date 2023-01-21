@@ -5,7 +5,7 @@ const MyButton = ({ href, text }) => {
     window.location.href = href;
   }
   return (
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-150 ease-in-out transform hover:scale-110 text-xl" onClick={handleClick}>
+    <button className="mr-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-150 ease-in-out transform hover:scale-110 text-xl" onClick={handleClick}>
       {text}
     </button>
   );
