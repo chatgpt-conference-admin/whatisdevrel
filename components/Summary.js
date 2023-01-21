@@ -5,7 +5,7 @@ import MyButton from './Button';
 
 export default function Summary() {
   return (
-    <section className="section container mb-24 animate-fade-in-up space-y-8 text-center">
+    <section className="section container mb-24 animate-fade-in-up space-y-8 text-center" id="summary">
         <Image
               className="mb-6"
               src="/chatgpt.png"

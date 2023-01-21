@@ -29,4 +29,8 @@
   @apply max-w-4xl px-4;
 }
 
+.navbar a:hover {
+  cursor: default;
+}
+
 @tailwind utilities;
