@@ -4,12 +4,10 @@ export default function Advice() {
   return (
     <section className="section container border-t border-gray-700 pt-6">
       <h2 className="title mt-4 mb-8 text-3xl md:text-5xl">
-        Advice for DevRels
+        Tracks for the ChatGPT Conference
       </h2>
       <p>
-        One of the hardest parts of DevRel is getting developer's attention.
-        It's what every devtool company is competing for. So how do you get it?
-        Let's look at some rules.
+       Here are all of the tracks for ChatGPT Conf
       </p>
       <div className="mx-auto max-w-4xl text-left">
         <h3 className="title mb-6 mt-6 text-3xl sm:text-4xl">

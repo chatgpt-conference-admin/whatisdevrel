@@ -1,30 +1,34 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from "next/future/image";
+import MyButton from './Button';
+
 
 export default function Summary() {
   return (
-    <section className="section container mb-24 animate-fade-in-up space-y-8">
+    <section className="section container mb-24 animate-fade-in-up space-y-8 text-center">
+        <Image
+              className="mb-6"
+              src="/chatgpt-banner.png"
+              alt="ChatGPT Conf"
+              width="800"
+              height="400"
+            />
       <h1 className="title text-4xl md:text-6xl">
-        What is Developer Relations?
+       ChatGPT Conf 2023
       </h1>
       <p>
-        If you've been hearing about DevRel and are confused what it means and
-        how to get a job doing it, this website is for you. We're going to
-        define what is it, explore the 3 types of devrel, discuss how to get a
-        job doing it{" "}
-        <span className="italic">(and share companies that are hiring)</span>,
-        and end with some resources and advice for aspiring and beginner
-        DevRels.
+      ChatGPT Conf is the premier virtual conference for AI and NLP enthusiasts, developers, and researchers. Hosted by the advanced AI model ChatGPT, the conference features keynote speakers, panel discussions, and presentations from leading experts in the field. Attendees will have the opportunity to stay up-to-date on the latest advancements in AI and NLP and know about use-cases, projects and experiences being built with ChatGPT
       </p>
       <p>
-        DevRel, also known as Developer Relations or Developer Advocacy, is a
-        role that exists at developer tool companies (companies whose target
-        market is developers). Developer Advocates{" "}
-        <span className="underline decoration-gray-600 decoration-dotted underline-offset-4">
-          help educate developers on a specific product or technology
-        </span>{" "}
-        through building community, creating content, and improving the
-        developer experience of a product.
+      The conference call for proposals will be evaluated by ChatGPT itself, ensuring that only the most relevant and informative talks are selected. Don't miss out on this opportunity to learn from the best and take your skills to the next level. 
       </p>
+      
+      <MyButton href="https://forms.gle/3dRtwoLLJHd16RiM7" text="Apply for CFP" />
+      
+      <MyButton href="https://www.eventbrite.com/e/chatgpt-conf-tickets-520953615287" text="Register Here" />
+
+   
+  
     </section>
   );
 }

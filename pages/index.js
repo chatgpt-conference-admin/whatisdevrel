@@ -7,16 +7,18 @@ import MetaHead from "../components/MetaHead";
 import Resources from "../components/Resources";
 import Summary from "../components/Summary";
 import CFP from "../components/CFP"
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
     <>
       <MetaHead />
+      <Navbar />
       <Summary />
-      {/* <DevRelPillars />
-      <Jobs />
-      <Advice />
-      <Resources /> */}
+      {/* <DevRelPillars /> */}
+      {/* <Jobs /> */}
+      {/* <Advice /> */}
+      <Resources />
       <Contributors />
       <CFP />
     </>
