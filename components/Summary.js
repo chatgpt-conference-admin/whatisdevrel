@@ -7,8 +7,8 @@ export default function Summary() {
   return (
     <section className="section container mb-24 animate-fade-in-up space-y-8 text-center">
         <Image
-              className="mb-6  text-center"
-              src="/chatgpt-banner.png"
+              className="mb-6"
+              src="/chatgpt.png"
               alt="ChatGPT Conf"
               width="800"
               height="400"
